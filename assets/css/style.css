@@ -11,7 +11,7 @@
 @media screen and (min-width: 768px) {
   body {
     /* overflow-x: hidden !important; */
-    background: #000;
+    background-color: red;
   }
   .bg {
     width: 100%;
@@ -198,7 +198,6 @@
     color: tomato;
   }
   .about-section {
-    padding: 3rem 2rem;
     background: #fbf8f5;
     /* background: white; */
   }
@@ -224,15 +223,6 @@
     font-family: "Roboto Flex", sans-serif;
     font-weight: 900;
     text-align: center;
-  }
-  .turbo {
-    font-size: 1.5rem;
-    font-family: "Roboto Flex", sans-serif;
-    margin-top: 2rem;
-  }
-  .turbo-examples {
-    color: gray;
-    margin-top: 2rem;
   }
 
   .skill-section {
@@ -445,7 +435,7 @@
 @media screen and (min-width: 992px) {
   body {
     /* overflow-x: hidden !important; */
-    background: #000;
+    background-color: #000;
   }
   .bg {
     width: 100%;
@@ -666,11 +656,7 @@
     font-weight: 900;
     text-align: center;
   }
-  .turbo {
-    font-size: 1.5rem;
-    font-family: "Roboto Flex", sans-serif;
-    margin-top: 2rem;
-  }
+
   .turbo-examples {
     color: gray;
     margin-top: 2rem;
@@ -1092,15 +1078,6 @@
     font-family: "Roboto Flex", sans-serif;
     font-weight: 900;
     text-align: center;
-  }
-  .turbo {
-    font-size: 1.5rem;
-    font-family: "Roboto Flex", sans-serif;
-    margin-top: 2rem;
-  }
-  .turbo-examples {
-    color: gray;
-    margin-top: 2rem;
   }
   .skill-section {
     background-color: rgb(69, 67, 67);
@@ -1542,15 +1519,6 @@
     font-family: "Roboto Flex", sans-serif;
     font-weight: 900;
     text-align: center;
-  }
-  .turbo {
-    font-size: 1.5rem;
-    font-family: "Roboto Flex", sans-serif;
-    margin-top: 2rem;
-  }
-  .turbo-examples {
-    color: gray;
-    margin-top: 2rem;
   }
   .skill-section {
     background-color: rgb(69, 67, 67);
