@@ -1642,6 +1642,7 @@
   }
   .press {
     background-color: rgb(14, 14, 148);
+    padding: 0;
   }
 
   .card img {
@@ -1650,7 +1651,7 @@
   }
   .card {
     width: 100%;
-    height: 58vh !important;
+    height: 59vh !important;
   }
   .location-section {
     background: #fbf8f5;
