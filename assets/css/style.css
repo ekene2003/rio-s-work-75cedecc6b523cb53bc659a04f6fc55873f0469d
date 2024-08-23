@@ -8,6 +8,23 @@
   scroll-behavior: smooth;
   transition: all 0.5s ease-in;
 }
+.about-btn {
+  border: 1px solid blue;
+  background-color: white;
+}
+.about-btn a {
+  text-decoration: none;
+  color: blue;
+}
+.navbar {
+  background-color: blue !important;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.nav-link {
+  color: white !important;
+}
 @media screen and (min-width: 768px) {
   body {
     /* overflow-x: hidden !important; */
