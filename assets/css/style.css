@@ -7,6 +7,9 @@
   text-decoration: none !important;
   scroll-behavior: smooth;
   transition: all 0.5s ease-in;
+  font-family: "Roboto", system-ui;
+  font-weight: 300;
+  font-style: normal;
 }
 .about-btn {
   border: 1px solid blue;
@@ -1630,7 +1633,6 @@
     border-radius: 50%;
     border: 3px solid white;
   }
-
   .card-wrap {
     display: flex !important;
     justify-content: space-evenly;
