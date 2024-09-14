@@ -455,7 +455,7 @@
 @media screen and (min-width: 992px) {
   body {
     /* overflow-x: hidden !important; */
-    background-color: #000;
+    background-color: #111010;
   }
   .bg {
     width: 100%;
@@ -463,7 +463,8 @@
     opacity: 0.4;
     object-fit: cover;
     object-position: 50% 50%;
-    height: 55vw;
+    height: 50vw;
+    background-blend-mode: overlay;
   }
   .press {
     background-image: url("../images/pexels-enrique-10785841.jpg");
@@ -730,31 +731,31 @@
   .first-cards {
     background-image: url("../images/Activated-Sludge_1.jpeg");
     background-size: cover;
-    background-color: rgb(85, 85, 85);
+    background-color: rgb(35, 35, 35);
     background-blend-mode: overlay;
   }
   .sec-cards {
     background-image: url("../images/Activated-Sludge_2.jpeg");
     background-size: cover;
-    background-color: rgb(85, 85, 85);
+    background-color: rgb(35, 35, 35);
     background-blend-mode: overlay;
   }
   .third-cards {
     background-image: url("../images/home-grid-demon-process.jpg");
     background-size: cover;
-    background-color: rgb(85, 85, 85);
+    background-color: rgb(35, 35, 35);
     background-blend-mode: overlay;
   }
   .fourth-cards {
     background-image: url("../images/home-grid-sequencing-batch.jpg");
     background-size: cover;
-    background-color: rgb(85, 85, 85);
+    background-color: rgb(35, 35, 35);
     background-blend-mode: overlay;
   }
   .fifth-cards {
     background-image: url("../images/home-grid-aerobic-digesters.jpg");
     background-size: cover;
-    background-color: rgb(85, 85, 85);
+    background-color: rgb(35, 35, 35);
     background-blend-mode: overlay;
   }
   .sludge-btn a {
