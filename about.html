@@ -20,23 +20,22 @@
 
 <body>
   <!-- Header -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand text-light" href="#">Eco Sublime</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto p-2  ">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-          </li>
-        </ul>
-      </div>
+  <header class="main-head about-head position-absolute top-0 py-2">
+    <div class="brand">
+      <h1 class="brand-head ms-2 me-auto">Eco Sublime</h1>
     </div>
-  </nav>
-  <section class="about-section" id="about">
+    <ul class="nav-wrap">
+      <a href="./index.html">
+        <li class="nav-item active-page">Home</li>
+      </a>
+      <a href="./about.html">
+        <li class="nav-item">About Us</li>
+      </a>
+    </ul>
+    <button class="nav-icon"><i class="fa fa-bars"></i></button>
+    <button class="nav-icon2"><i class="fa fa-x"></i></button>
+  </header>
+  <section class="about-section mt-5" id="about">
     <div class="container py-2">
       <div class="row pt-1 d-flex align-items-center">
         <div class="left col-md-6">
@@ -85,7 +84,7 @@
   </section>
   <section class="location-section">
     <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20151.871855007445!2d4.326004613100103!3d50.8499808897423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c387df6e0763%3A0xf5b9695b2c412ba4!2sRue%20du%20Vieux%20March%C3%A9%20aux%20Grains%2C%201000%20Bruxelles%2C%20Belgium!5e0!3m2!1sen!2sng!4v1724414648506!5m2!1sen!2sng"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20151.871855007445!2d4.326004613100103!3d50.8499808897423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c387df6e0763%3A0xf5b9695b2c412ba4!2sRue%20du%20Vieux%20March%C3%A9%20aux%20Grains%2C%201000%20Bruxelles%2C%20Belgium!5e0!3m2!1sen!2sng!4v1726419775743!5m2!1sen!2sng"
       width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"></iframe>
   </section>
