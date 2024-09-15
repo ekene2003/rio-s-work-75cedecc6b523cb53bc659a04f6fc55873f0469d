@@ -841,7 +841,7 @@
     margin: 1rem 0;
     padding: 1rem;
     font-family: "Play", sans-serif;
-    background: gray;
+    background: blue;
     color: #fbf8f5;
   }
   .socials {
@@ -878,7 +878,7 @@
     display: block;
     padding: 1rem;
     width: 100%;
-    background: gray;
+    background: blue;
     color: white;
     text-align: center;
   }
@@ -1714,7 +1714,7 @@
     margin: 1rem 0;
     padding: 1rem;
     font-family: "Play", sans-serif;
-    background: gray;
+    background-color: blue;
     color: #fbf8f5;
   }
   .socials {
@@ -1751,7 +1751,7 @@
     display: block;
     padding: 1rem;
     width: 100%;
-    background: gray;
+    background: blue;
     color: white;
     text-align: center;
   }
